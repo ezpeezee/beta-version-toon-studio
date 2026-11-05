@@ -1,0 +1,5 @@
+﻿frame,dur_f,kind,level_db_vs_voice,arg
+20,,pop,-12,900
+78,6,whoosh,-16,
+84,50,roll,-18,
+110,,thud,-10,70

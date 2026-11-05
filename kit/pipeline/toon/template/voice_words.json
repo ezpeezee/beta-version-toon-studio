@@ -1,0 +1,10 @@
+﻿[
+ {"word": "Welcome", "start": 0.1, "end": 0.6, "line": 1},
+ {"word": "to", "start": 0.6, "end": 0.75, "line": 1},
+ {"word": "the", "start": 0.75, "end": 0.9, "line": 1},
+ {"word": "big", "start": 0.9, "end": 1.2, "line": 1},
+ {"word": "sale.", "start": 1.2, "end": 1.7, "line": 1},
+ {"word": "Four", "start": 2.8, "end": 3.2, "line": 2},
+ {"word": "hundred", "start": 3.2, "end": 3.6, "line": 2},
+ {"word": "million.", "start": 3.6, "end": 4.3, "line": 2}
+]
