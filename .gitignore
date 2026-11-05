@@ -6,3 +6,5 @@ kit/reels/*/
 !kit/reels/.gitkeep
 *.blend
 *.blend1
+desktop.ini
+Thumbs.db

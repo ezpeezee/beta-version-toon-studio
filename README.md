@@ -76,6 +76,16 @@ A 9:16 video at 30 fps, with sound effects, a music bed and a short caption.
 
 ## 🚀 Quick start
 
+**The easy way:** install [Claude Code](https://claude.com/claude-code), then paste this into it:
+
+```text
+Set up github.com/ezpeezee/beta-version-toon-studio on my PC, and run its test.
+```
+
+It clones the repo, follows [SETUP.md](SETUP.md), checks your tools (and gives you the install command for anything missing), makes the Python environment, fills in your paths and renders a six-second test clip. With the tools already installed it takes about three minutes. On a fresh PC, expect about 1 GB of downloads first.
+
+**By hand:**
+
 ```text
 1. Install Blender 5.2, Python 3.11+, ffmpeg and Claude Code
 2. Copy skill/ to ~/.claude/skills/beta-version-toon-studio/
