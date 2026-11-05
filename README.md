@@ -1,34 +1,130 @@
+<div align="center">
+
+<img src="docs/banner.png" alt="Beta Version Toon Studio" width="100%">
+
 # Beta Version Toon Studio
 
-Turn an idea or your own script into a short vertical (9:16) cartoon video with Claude Code.
-Flat drawn characters act in a Blender 3D set, with word-timed captions and camera moves, rendered to `mp4`.
+**Turn an idea, or your own script, into a vertical animated short with Claude Code.**
 
-[![Showcase: click to watch](docs/preview.gif)](docs/showcase.mp4)
+[![License: MIT](https://img.shields.io/badge/license-MIT-3ad6f0?style=for-the-badge)](LICENSE.md)
+[![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757?style=for-the-badge)](skill/SKILL.md)
+[![Blender 5.2](https://img.shields.io/badge/Blender-5.2-e87d0d?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/download/)
+[![Instagram](https://img.shields.io/badge/Follow-@beta__versionhq-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/beta_versionhq/)
 
-*Click the preview to watch the full showcase (77 s, with sound).*
+### **📣 Like it? [Follow @beta_versionhq on Instagram](https://www.instagram.com/beta_versionhq/) for new tools, updates and behind-the-scenes.**
 
-## What you get
-- **A Claude Code skill** (`skill/`). Tell Claude your idea or paste your script, and it writes the shots and runs the kit.
-- **A render kit** (`kit/`) with ready-made sets, a character design, word-timed captions, simple sound effects and a music bed.
-- **Script help.** From a one-line idea it writes a simple script, or it uses yours word for word.
-- **Bring your own voice.** Use a recording or any text-to-speech file, and the kit times the captions to it. With no voice yet, it renders silent on placeholder timings.
+</div>
 
-## Quick start
-1. Install the requirements and the kit: see [SETUP.md](SETUP.md).
-2. Open Claude Code in your `Reels` folder.
-3. Type `/beta-version-toon-studio` followed by your idea or your script.
+---
 
-## Requirements
-- Windows 10/11 with PowerShell
-- Blender 5.2
-- Python 3.11+
-- ffmpeg
-- Claude Code
-- An NVIDIA GPU is best; a CPU also works, more slowly.
+## 🎬 See it in action
 
-## Licence
-MIT: free to use, change and share, including commercially. See [LICENSE.md](LICENSE.md).
+https://github.com/user-attachments/assets/59ee3c22-f378-485e-9ebf-55d67782fec2
+
+<div align="center"><sub>Every clip above was made with the toon pipeline this kit comes from.</sub></div>
+
+---
+
+## ✨ What you get
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📝 Script help
+Give it one line and it writes a simple script, or paste yours and it uses it word for word.
+
+</td>
+<td width="50%" valign="top">
+
+### 🏙️ Ready-made 3D worlds
+Streets, offices, a trading floor, a factory, a data centre, a shop, a rooftop, the sea and the desert.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🧑‍🎨 Drawn characters
+Flat inked characters walk, talk, point and react, standing inside the 3D set.
+
+</td>
+<td valign="top">
+
+### 💬 Word-timed captions
+Bring a recording or any text-to-speech voice. Every caption lands on its word.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🎥 Camera and effects
+Pushes, tracks, cranes and arcs, plus smoke, sparks, money and confetti.
+
+</td>
+<td valign="top">
+
+### 📱 Ready to post
+A 9:16 video at 30 fps, with sound effects, a music bed and a short caption.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Quick start
+
+```text
+1. Install Blender 5.2, Python 3.11+, ffmpeg and Claude Code
+2. Copy skill/ to ~/.claude/skills/beta-version-toon-studio/
+3. Copy kit/ to your project and rename it Reels
+4. Open Claude Code in Reels and type:
+
+   /beta-version-toon-studio a short video about why bread goes stale
+```
+
+Full steps, including the Python environment and paths, are in **[SETUP.md](SETUP.md)**.
+
+## 🛠️ How it works
+
+| Step | What happens |
+|---|---|
+| **1. Script** | It writes one from your idea, or uses yours. |
+| **2. Voice** | Your recording is timed word by word. With no voice yet, it uses placeholder timings. |
+| **3. Shots** | Claude writes `sets.py` (the world) and `story.py` (the shots). |
+| **4. Look** | Quick stills come first, so problems are fixed before the full render. |
+| **5. Render** | Blender renders frames in parallel, then the kit adds captions and joins the shots. |
+| **6. Sound** | Sound effects and a music bed are mixed under the voice. |
+
+## 💻 Requirements
+
+| | |
+|---|---|
+| **OS** | Windows 10/11 with PowerShell |
+| **Software** | Blender 5.2, Python 3.11+, ffmpeg, Claude Code |
+| **Hardware** | An NVIDIA GPU is best; a CPU also works, more slowly |
+
+---
+
+<div align="center">
+
+## 💙 Support the project
+
+### **If this helped you, [follow @beta_versionhq on Instagram](https://www.instagram.com/beta_versionhq/). It really helps!**
+
+[![Follow on Instagram](https://img.shields.io/badge/Instagram-@beta__versionhq-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/beta_versionhq/)
+
+⭐ Star the repo if you'd like more tools like this.
+
+</div>
+
+---
+
+### License
+MIT: free to use, change and share. See [LICENSE.md](LICENSE.md).
 If you post something you made with it, a credit ("Made with Beta Version Toon Studio") would be nice, but it isn't required.
 
-## Credits
-Showcase music: "Getting it Done" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0.
+### Credits
+Showcase music: "Getting it Done" by Kevin MacLeod ([incompetech.com](https://incompetech.com)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
