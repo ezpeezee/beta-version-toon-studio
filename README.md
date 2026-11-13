@@ -10,8 +10,9 @@
 [![Claude Code skill](https://img.shields.io/badge/Claude%20Code-skill-d97757?style=for-the-badge)](skill/SKILL.md)
 [![Blender 5.2](https://img.shields.io/badge/Blender-5.2-e87d0d?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/download/)
 [![Instagram](https://img.shields.io/badge/Follow-@beta__versionhq-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/beta_versionhq/)
+[![YouTube](https://img.shields.io/badge/Subscribe-@BetaVersion__HQ-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@BetaVersion_HQ)
 
-### **📣 Like it? [Follow @beta_versionhq on Instagram](https://www.instagram.com/beta_versionhq/) for new tools, updates and behind-the-scenes.**
+### **📣 Like it? Follow [@beta_versionhq on Instagram](https://www.instagram.com/beta_versionhq/) and subscribe on [YouTube @BetaVersion_HQ](https://www.youtube.com/@BetaVersion_HQ) for new tools, updates and behind-the-scenes.**
 
 </div>
 
@@ -22,6 +23,20 @@
 https://github.com/user-attachments/assets/59ee3c22-f378-485e-9ebf-55d67782fec2
 
 <div align="center"><sub>Every clip above was made with the toon pipeline this kit comes from.</sub></div>
+
+---
+
+## 📺 Watch the full walkthrough
+
+<div align="center">
+
+<a href="https://youtu.be/ogDCe4KX-Ag" title="I Built a 3D Animation Studio Using Only Claude Code (FREE)">
+  <img src="https://img.youtube.com/vi/ogDCe4KX-Ag/maxresdefault.jpg" alt="Watch the Toon Studio walkthrough on YouTube" width="85%">
+</a>
+
+**▶️ [I Built a 3D Animation Studio Using Only Claude Code (FREE)](https://youtu.be/ogDCe4KX-Ag)**
+
+</div>
 
 ---
 
