@@ -11,6 +11,8 @@
 [![Blender 5.2](https://img.shields.io/badge/Blender-5.2-e87d0d?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org/download/)
 [![Instagram](https://img.shields.io/badge/Follow-@beta__versionhq-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/beta_versionhq/)
 [![YouTube](https://img.shields.io/badge/Subscribe-@BetaVersion__HQ-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@BetaVersion_HQ)
+[![GitHub stars](https://img.shields.io/github/stars/ezpeezee/beta-version-toon-studio?style=for-the-badge&logo=github&color=f5c518)](https://github.com/ezpeezee/beta-version-toon-studio/stargazers)
+[![Latest release](https://img.shields.io/github/v/release/ezpeezee/beta-version-toon-studio?style=for-the-badge&color=22c55e)](https://github.com/ezpeezee/beta-version-toon-studio/releases/latest)
 
 ### **📣 Like it? Follow [@beta_versionhq on Instagram](https://www.instagram.com/beta_versionhq/) and subscribe on [YouTube @BetaVersion_HQ](https://www.youtube.com/@BetaVersion_HQ) for new tools, updates and behind-the-scenes.**
 
@@ -23,6 +25,8 @@
 https://github.com/user-attachments/assets/59ee3c22-f378-485e-9ebf-55d67782fec2
 
 <div align="center"><sub>Every clip above was made with the toon pipeline this kit comes from.</sub></div>
+
+<p align="center"><img src="docs/gallery.png" alt="Stills from shorts made with Toon Studio" width="100%"></p>
 
 ---
 
@@ -99,7 +103,8 @@ Set up github.com/ezpeezee/beta-version-toon-studio on my PC, and run its test.
 
 It clones the repo, follows [SETUP.md](SETUP.md), checks your tools (and gives you the install command for anything missing), makes the Python environment, fills in your paths and renders a six-second test clip. With the tools already installed it takes about three minutes. On a fresh PC, expect about 1 GB of downloads first.
 
-**By hand:**
+<details>
+<summary><b>Prefer to set it up by hand? Click here.</b></summary>
 
 ```text
 1. Install Blender 5.2, Python 3.11+, ffmpeg and Claude Code
@@ -112,7 +117,21 @@ It clones the repo, follows [SETUP.md](SETUP.md), checks your tools (and gives y
 
 Full steps, including the Python environment and paths, are in **[SETUP.md](SETUP.md)**.
 
+</details>
+
 ## 🛠️ How it works
+
+```mermaid
+flowchart LR
+    A["💡 Idea or script"] --> B["🗣️ Voice"]
+    B --> C["🎬 Shots"]
+    C --> D["🖼️ Look stills"]
+    D --> E["🎨 Blender render"]
+    E --> F["📱 9:16 mp4"]
+```
+
+<details>
+<summary><b>What happens at each step</b></summary>
 
 | Step | What happens |
 |---|---|
@@ -123,13 +142,29 @@ Full steps, including the Python environment and paths, are in **[SETUP.md](SETU
 | **5. Render** | Blender renders frames in parallel, then the kit adds captions and joins the shots. |
 | **6. Sound** | Sound effects and a music bed are mixed under the voice. |
 
-## 💻 Requirements
+</details>
+
+<details>
+<summary><b>💻 Requirements</b></summary>
 
 | | |
 |---|---|
 | **OS** | Windows 10/11 with PowerShell |
 | **Software** | Blender 5.2, Python 3.11+, ffmpeg, Claude Code |
 | **Hardware** | An NVIDIA GPU is best; a CPU also works, more slowly |
+
+</details>
+
+---
+
+## 🧰 Also from Beta Version
+
+<table>
+<tr>
+<td width="140"><a href="https://github.com/ezpeezee/beta-version-blox-studio"><img src="https://raw.githubusercontent.com/ezpeezee/beta-version-blox-studio/main/docs/banner.png" width="140" alt="Blox Studio"></a></td>
+<td><b><a href="https://github.com/ezpeezee/beta-version-blox-studio">Beta Version Blox Studio</a></b><br>The same idea-to-short kit with blocky 3D characters, a free text-to-speech voice and lip-sync.</td>
+</tr>
+</table>
 
 ---
 
