@@ -228,7 +228,7 @@ Add this badge to your video description or your own repo:
 ---
 
 ### License
-MIT: free to use, change and share. See [LICENSE.md](LICENSE.md).
+MIT: free to use, change and share. See [LICENSE.md](LICENSE.md) and [NOTICE.md](NOTICE.md).
 If you post something you made with it, a credit ("Made with Beta Version Toon Studio") would be nice, but it isn't required.
 
 ### Credits
